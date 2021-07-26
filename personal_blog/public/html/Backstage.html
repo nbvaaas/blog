@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>不知名的个人博客</title>
+    <link rel="icon" href="../img/bitbug_favicon.ico" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
+    <script src="../js/md.js"></script>
+    <link rel="stylesheet" href="../css/md.css">
+    <link rel="stylesheet" href="../css/back.css">
+</head>
+
+<body>
+    <div class="Mask">
+        <span class="ts">博客正在保存/3秒后自动关闭</span>
+    </div>
+    <div class="path">当前博客管理为/技术分享</div>
+    <div class="paths">进入技术推荐管理</div>
+    <div class="release">发布文章</div>
+    <ul class="nav">
+        <li class="blog bgcolor">博客管理</li>
+        <li class="liuy">留言管理</li>
+        <li class="addblog">添加博客</li>
+        <li class="returns">返回首页</li>
+    </ul>
+    <div class="content">
+        <ul class="ul_1"></ul>
+        <ul class="ul_2"></ul>
+    </div>
+    <div class="head" style="font-size: 20px;height: 30px; text-align: center;font-weight: bold;">欢迎使用Markdown编辑</div>
+    <div id="area">
+        <table>
+            <tr>
+                <td><textarea name="" id="md-area" onkeyup=mdSwitch()></textarea></td>
+                <td>
+                    <div id="show-area" class="clearfix"></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="../js/jquery-2.2.4.min.js"></script>
+<script src="../js/black.js"></script>
+
+</html>
